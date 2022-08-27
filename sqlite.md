@@ -12,13 +12,20 @@ Ensuite on se déplace dans un dossier et on utilise la commande :
 sqlite3 db.sqlite
 ```
 
-Pour sortir de sqlite c’est ctrl D
-
-Pour visualiser plus simplement le contenu via un SELECT * FROM
-
+Pour sortir de sqlite c’est 
+```jsx
+ctrl D
+```
+Pour visualiser plus simplement le contenu via un SELECT * FROM on ajoute les headers
+```jsx
 .mode column
 .headers on
-
+```
+Et on peut ensuite lister toutes les tables :
+```jsx
 .tables #liste toutes les tables
-
+```
+Exemple :
+```jsx
 SELECT * FROM TableName LIMIT 1; #retourne tous les headers
+```
