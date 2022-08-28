@@ -1,4 +1,4 @@
-# Dotenv
+# Dotenv (From Felix repo, https://github.com/felhix)
 Dotenv est une gem qui permet de stocker des clés d'API dans un joli fichier contenant toutes nos clés secrêtes, pour éviter de les push sur Github à l'arrache.
 
 ## Komment que ça marche ?

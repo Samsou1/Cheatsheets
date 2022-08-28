@@ -1,4 +1,4 @@
-# Devise
+# Devise (From Felix repo, https://github.com/felhix)
 ## Setup
 Dans le Gemfile :
 

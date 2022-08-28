@@ -46,7 +46,9 @@ Autres commandes :
 ```ruby
 resources :nom_de_la_ressource, except: [:destroy]
 resources :nom_de_la_ressource, only: [:new, :create, :index, :destroy]
+```
 ou encore
+```ruby
 resources :nom_de_la_ressource, only: %i[new create index destroy]
 ```
 ## Console
@@ -54,6 +56,17 @@ Si jamais la console refuse de se lancer
 ```ruby
 bin/spring stop
 ```
+
+## Controlers
+How to generate a controller:
+```ruby
+rails generate controller ControllerName action1 action2
+```
+For instance:
+```ruby
+rails generate controller Greetings hello
+```
+This will generate a controller named greetings, a route greetings/hello, a view greetings, a view greetings/hello...
 
 ## Models
 Comment générer un model
