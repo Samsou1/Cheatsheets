@@ -1,5 +1,6 @@
-#WSL
-Pour shutdown
+# WSL
+## Shutdown
 ```shell
 wsl --shutdown
 ```
+
