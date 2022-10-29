@@ -149,3 +149,18 @@ const Header = () => {
   )
 }
 ```
+
+## Showdown
+
+Import
+```
+import Showdown from 'showdown';
+const converter = new Showdown.Converter();
+```
+
+Use
+```
+const markdown_string_to_convert = '# Hello world';
+<div dangerouslySetInnerHTML={{__html: converter.makeHtml(markdown_string_to_convert)}}></div>
+```
+
