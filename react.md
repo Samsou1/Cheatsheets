@@ -164,3 +164,14 @@ const markdown_string_to_convert = '# Hello world';
 <div dangerouslySetInnerHTML={{__html: converter.makeHtml(markdown_string_to_convert)}}></div>
 ```
 
+## Useparams()
+
+Import
+```
+import {useParams} from 'react-router-dom';
+```
+
+Use in a component (be careful not to use it in a hook like Useeffect)
+```
+const items = useParams()
+```
